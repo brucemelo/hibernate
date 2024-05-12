@@ -1,0 +1,15 @@
+version: '3.5'
+
+services:
+  postgres:
+    container_name: postgres1
+    image: postgres:15.7
+    environment:
+      POSTGRES_USER: sa
+      POSTGRES_PASSWORD: sa
+      POSTGRES_DB: mydatabase
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    networks:
+      - postgres
