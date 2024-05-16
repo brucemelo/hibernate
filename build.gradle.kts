@@ -16,10 +16,8 @@ dependencies {
     compileOnly("org.projectlombok:lombok:1.18.32")
     annotationProcessor("org.projectlombok:lombok:1.18.32")
     implementation("org.postgresql:postgresql:42.7.3")
-    implementation("org.hibernate.orm:hibernate-core:6.5.0.Final")
-//    compileOnly("org.hibernate.orm:hibernate-jpamodelgen:6.5.0.Final")
-    annotationProcessor("org.hibernate.orm:hibernate-jpamodelgen:6.5.0.Final")
-
+    implementation("org.hibernate.orm:hibernate-core:6.5.1.Final")
+    annotationProcessor("org.hibernate.orm:hibernate-jpamodelgen:6.5.1.Final")
 }
 
 tasks.test {

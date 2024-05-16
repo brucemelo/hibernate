@@ -1,2 +1,2 @@
-rootProject.name = "hibernate"
+rootProject.name = "hibernate6"
 
